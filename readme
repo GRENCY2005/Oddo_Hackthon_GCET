@@ -1,1 +1,171 @@
-Dayflow - Human Resource Management System
+# Dayflow HRMS - Human Resource Management System
+
+A complete HRMS application with **file-based JSON storage** - No database required!
+
+## 📁 Project Structure
+
+```
+Dayflow-HRMS/
+├── backend/
+│   ├── config/
+│   │   ├── db.js          # File database initialization
+│   │   └── fileDB.js      # JSON file operations
+│   ├── controllers/       # Business logic
+│   │   ├── authController.js
+│   │   ├── attendanceController.js
+│   │   ├── leaveController.js
+│   │   └── payrollController.js
+│   ├── data/              # 📊 ALL DATA STORED HERE (JSON files)
+│   │   ├── users.json     # User accounts (email, password, etc.)
+│   │   ├── attendance.json
+│   │   ├── leaves.json
+│   │   └── payrolls.json
+│   ├── middleware/
+│   │   └── authMiddleware.js
+│   ├── models/            # File-based models
+│   │   ├── User.js
+│   │   ├── Attendance.js
+│   │   ├── Leave.js
+│   │   └── Payroll.js
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── attendanceRoutes.js
+│   │   ├── leaveRoutes.js
+│   │   └── payrollRoutes.js
+│   └── server.js
+└── frontend/
+    └── src/
+```
+
+## 🗄️ Data Storage
+
+**All data is stored in JSON files in `backend/data/` folder:**
+
+- `users.json` - All user accounts (email, password, employeeId, name, role, etc.)
+- `attendance.json` - Attendance records
+- `leaves.json` - Leave requests
+- `payrolls.json` - Payroll information
+
+**Data is stored dynamically** - when users register/login, all their information is saved in these JSON files.
+
+## 🚀 Quick Start
+
+### 1. Install Dependencies
+
+**Backend:**
+```bash
+cd backend
+npm install
+```
+
+**Frontend:**
+```bash
+cd frontend
+npm install
+```
+
+### 2. Start Backend Server
+
+```bash
+cd backend
+npm run dev
+```
+
+You should see:
+```
+✓ File-based database ready!
+  Data stored in: backend/data/
+  Files: users.json, attendance.json, leaves.json, payrolls.json
+✓ Server running on port 5000
+```
+
+### 3. Start Frontend (New Terminal)
+
+```bash
+cd frontend
+npm run dev
+```
+
+### 4. Open Browser
+
+Go to: **http://localhost:5173**
+
+## ✨ Features
+
+- ✅ **No Database Required** - Uses JSON files
+- ✅ **Dynamic Data Storage** - All user data saved automatically
+- ✅ **User Registration** - Email, password, employeeId stored in users.json
+- ✅ **User Login** - Authentication with JWT
+- ✅ **Attendance Tracking** - Check-in/Check-out
+- ✅ **Leave Management** - Apply and approve leaves
+- ✅ **Payroll Management** - Salary structure management
+- ✅ **Role-based Access** - Employee and HR roles
+
+## 📝 How Data is Stored
+
+When a user registers:
+1. Data is saved to `backend/data/users.json`
+2. Password is hashed with bcrypt
+3. User ID is generated automatically
+4. All fields (email, password, employeeId, name, role) are stored
+
+Example `users.json`:
+```json
+[
+  {
+    "_id": "abc123",
+    "employeeId": "em1",
+    "name": "Grency",
+    "email": "grencysavaliya@gmail.com",
+    "password": "$2a$10$hashed...",
+    "role": "Employee",
+    "createdAt": "2026-01-03T10:00:00.000Z"
+  }
+]
+```
+
+## 🔧 Configuration
+
+Create `backend/.env` (optional):
+```
+PORT=5000
+JWT_SECRET=your-secret-key
+```
+
+## 📊 View Your Data
+
+You can directly open and view JSON files:
+- `backend/data/users.json` - See all registered users
+- `backend/data/attendance.json` - See attendance records
+- `backend/data/leaves.json` - See leave requests
+- `backend/data/payrolls.json` - See payroll data
+
+## 🔄 Reset Data
+
+To start fresh, delete files in `backend/data/` folder and restart server.
+
+## 🎯 Tech Stack
+
+- **Backend:** Node.js, Express, JSON file storage
+- **Frontend:** React, Vite
+- **Authentication:** JWT, bcrypt
+- **Storage:** JSON files (no database needed!)
+
+## 📦 Dependencies
+
+**Backend:**
+- express
+- bcryptjs
+- jsonwebtoken
+- cors
+- dotenv
+
+**Frontend:**
+- react
+- react-router-dom
+- axios
+
+## ✅ No MongoDB Required!
+
+This project uses **file-based storage** - all data is stored in JSON files. No database installation needed!
+
