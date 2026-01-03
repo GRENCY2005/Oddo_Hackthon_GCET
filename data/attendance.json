@@ -1,0 +1,103 @@
+[
+  {
+    "_id": "mjy595jk2t3ajidi0yr",
+    "userId": "mjy4y6rt6sypuv4yai6",
+    "date": "2026-01-02T18:30:00.000Z",
+    "checkIn": "2026-01-03T10:12:29.644Z",
+    "status": "Present",
+    "createdAt": "2026-01-03T10:12:29.651Z"
+  },
+  {
+    "_id": "mjy5duj80aahac5gheg",
+    "userId": "mjy4y6rt6sypuv4yai6",
+    "date": "2026-01-03T18:30:00.000Z",
+    "status": "Leave",
+    "createdAt": "2026-01-03T10:16:08.660Z"
+  },
+  {
+    "_id": "mjy5dujgaimt5llp74e",
+    "userId": "mjy4y6rt6sypuv4yai6",
+    "date": "2026-01-04T18:30:00.000Z",
+    "status": "Leave",
+    "createdAt": "2026-01-03T10:16:08.668Z"
+  },
+  {
+    "_id": "mjy5np0cb6ed2g99xat",
+    "userId": "mjy5lbtor9hdtequ52",
+    "date": "2026-01-02T18:30:00.000Z",
+    "checkIn": "2026-01-03T10:23:48.055Z",
+    "status": "Present",
+    "createdAt": "2026-01-03T10:23:48.060Z"
+  },
+  {
+    "_id": "mjy5q5xy0pyoi7tdbazn",
+    "userId": "mjy5lbtor9hdtequ52",
+    "date": "2026-01-03T18:30:00.000Z",
+    "status": "Leave",
+    "createdAt": "2026-01-03T10:25:43.318Z"
+  },
+  {
+    "_id": "mjy5q5y9gd44s1jk7is",
+    "userId": "mjy5lbtor9hdtequ52",
+    "date": "2026-01-04T18:30:00.000Z",
+    "status": "Leave",
+    "createdAt": "2026-01-03T10:25:43.329Z"
+  },
+  {
+    "_id": "mjy5q5yl9q0rodh3xb6",
+    "userId": "mjy5lbtor9hdtequ52",
+    "date": "2026-01-05T18:30:00.000Z",
+    "status": "Leave",
+    "createdAt": "2026-01-03T10:25:43.341Z"
+  },
+  {
+    "_id": "mjy5q5yx0rsj2d57fc1j",
+    "userId": "mjy5lbtor9hdtequ52",
+    "date": "2026-01-06T18:30:00.000Z",
+    "status": "Leave",
+    "createdAt": "2026-01-03T10:25:43.353Z"
+  },
+  {
+    "_id": "mjy5q5zfy6leqgxozj8",
+    "userId": "mjy5lbtor9hdtequ52",
+    "date": "2026-01-07T18:30:00.000Z",
+    "status": "Leave",
+    "createdAt": "2026-01-03T10:25:43.371Z"
+  },
+  {
+    "_id": "mjy5q602wfdhzy03zqo",
+    "userId": "mjy5lbtor9hdtequ52",
+    "date": "2026-01-08T18:30:00.000Z",
+    "status": "Leave",
+    "createdAt": "2026-01-03T10:25:43.394Z"
+  },
+  {
+    "_id": "mjy5q60ktwqo94uhsdn",
+    "userId": "mjy5lbtor9hdtequ52",
+    "date": "2026-01-09T18:30:00.000Z",
+    "status": "Leave",
+    "createdAt": "2026-01-03T10:25:43.412Z"
+  },
+  {
+    "_id": "mjy6u7a8uwkbixxs5a",
+    "userId": "mjy6t76axdalwnppu",
+    "date": "2026-01-02T18:30:00.000Z",
+    "checkIn": "2026-01-03T10:56:51.293Z",
+    "status": "Leave",
+    "createdAt": "2026-01-03T10:56:51.296Z"
+  },
+  {
+    "_id": "mjy6wxiwio19jybcup8",
+    "userId": "mjy6t76axdalwnppu",
+    "date": "2026-01-03T18:30:00.000Z",
+    "status": "Leave",
+    "createdAt": "2026-01-03T10:58:58.616Z"
+  },
+  {
+    "_id": "mjy6wxjolm1d03840w",
+    "userId": "mjy6t76axdalwnppu",
+    "date": "2026-01-04T18:30:00.000Z",
+    "status": "Leave",
+    "createdAt": "2026-01-03T10:58:58.644Z"
+  }
+]

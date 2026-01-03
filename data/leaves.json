@@ -1,0 +1,41 @@
+[
+  {
+    "_id": "mjy59pmwi4lilhm5an",
+    "userId": "mjy4y6rt6sypuv4yai6",
+    "type": "Sick",
+    "from": "2026-01-04T00:00:00.000Z",
+    "to": "2026-01-05T00:00:00.000Z",
+    "remarks": "",
+    "status": "Approved",
+    "createdAt": "2026-01-03T10:12:55.688Z",
+    "updatedAt": "2026-01-03T10:16:08.652Z",
+    "approvedBy": "mjy5ckfaeasg1s3dbgb",
+    "adminComments": "get well soon"
+  },
+  {
+    "_id": "mjy5oiyssun616nk2b",
+    "userId": "mjy5lbtor9hdtequ52",
+    "type": "Paid",
+    "from": "2026-01-04T00:00:00.000Z",
+    "to": "2026-01-10T00:00:00.000Z",
+    "remarks": "Holiday",
+    "status": "Approved",
+    "createdAt": "2026-01-03T10:24:26.884Z",
+    "updatedAt": "2026-01-03T10:25:43.298Z",
+    "approvedBy": "mjy5ckfaeasg1s3dbgb",
+    "adminComments": "no paid leave"
+  },
+  {
+    "_id": "mjy6up00eb7qbmx8dgl",
+    "userId": "mjy6t76axdalwnppu",
+    "type": "Sick",
+    "from": "2026-01-03T00:00:00.000Z",
+    "to": "2026-01-05T00:00:00.000Z",
+    "remarks": "Fever",
+    "status": "Approved",
+    "createdAt": "2026-01-03T10:57:14.257Z",
+    "updatedAt": "2026-01-03T10:58:58.585Z",
+    "approvedBy": "mjy5ckfaeasg1s3dbgb",
+    "adminComments": "get well soon"
+  }
+]

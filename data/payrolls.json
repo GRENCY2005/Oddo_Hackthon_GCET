@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "mjy53alyjoe83i655r",
+    "userId": "mjy4y6rt6sypuv4yai6",
+    "baseSalary": 0,
+    "allowances": 0,
+    "deductions": 0,
+    "netSalary": 0,
+    "updatedAt": "2026-01-03T10:07:56.278Z"
+  },
+  {
+    "_id": "mjy5eej8lum661mycrs",
+    "userId": "mjy4w9zomwyqzhrxptc",
+    "baseSalary": 0,
+    "allowances": 0,
+    "deductions": 0,
+    "netSalary": 0,
+    "updatedAt": "2026-01-03T10:16:34.580Z"
+  },
+  {
+    "_id": "mjy5m2rkcgyndkajj09",
+    "userId": "mjy5lbtor9hdtequ52",
+    "baseSalary": 0,
+    "allowances": 0,
+    "deductions": 0,
+    "netSalary": 0,
+    "updatedAt": "2026-01-03T10:22:32.576Z"
+  },
+  {
+    "_id": "mjy6txrlw32tgsl4dn",
+    "userId": "mjy6t76axdalwnppu",
+    "baseSalary": 0,
+    "allowances": 0,
+    "deductions": 0,
+    "netSalary": 0,
+    "updatedAt": "2026-01-03T10:56:38.962Z"
+  },
+  {
+    "_id": "mjy6x7ao72s4s68jgr2",
+    "userId": "undefined",
+    "baseSalary": 0,
+    "allowances": 0,
+    "deductions": 0,
+    "netSalary": 0,
+    "updatedAt": "2026-01-03T10:59:11.280Z"
+  }
+]

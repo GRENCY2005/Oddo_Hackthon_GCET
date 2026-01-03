@@ -1,0 +1,69 @@
+[
+  {
+    "_id": "mjy4w9zomwyqzhrxptc",
+    "employeeId": "em1",
+    "name": "Grency",
+    "email": "grencysavaliya@gmail.com",
+    "password": "$2a$10$jyarvN2Ml3mCzt4BJH.6Me5v3e.Enw5ijnqfFmqYrnlQiauOoIzRi",
+    "role": "Employee",
+    "emailVerificationToken": "a8cee1c358c058878214d0339fc3275cae522b51c084d7ab36692cd8e64da75d",
+    "emailVerified": true,
+    "createdAt": "2026-01-03T10:02:28.884Z"
+  },
+  {
+    "_id": "mjy4y6rt6sypuv4yai6",
+    "employeeId": "em2",
+    "name": "Grency",
+    "email": "grencysavaliya1@gmail.com",
+    "password": "$2a$10$C4r3sP6w4E.gRBR1JvtvfOmcWKzwMHRL7CwyArZzkECeGsj/.2Tcq",
+    "role": "Employee",
+    "emailVerificationToken": "92516571ee1ae31e43019bd0c0d8bb184743f8c88ac59fe2baa514c7ebea3c98",
+    "emailVerified": true,
+    "createdAt": "2026-01-03T10:03:58.025Z",
+    "updatedAt": "2026-01-03T10:13:49.829Z"
+  },
+  {
+    "_id": "mjy5ckfaeasg1s3dbgb",
+    "employeeId": "hr1",
+    "name": "sita",
+    "email": "hr1@gmail.com",
+    "password": "$2a$10$Csc1atJqbEDvn/yr/iM9NeMBGO/y3c5v.RQOsJ9GGLbyiRe5YbiIK",
+    "role": "HR",
+    "emailVerificationToken": "039e1c3f954c140c934be7315944bc67133cba9f1e4b903644002ce68a2dfe6a",
+    "emailVerified": true,
+    "createdAt": "2026-01-03T10:15:08.902Z"
+  },
+  {
+    "_id": "mjy5lbtor9hdtequ52",
+    "employeeId": "em3",
+    "name": "nisha",
+    "email": "em3@gmail.com",
+    "password": "$2a$10$6h2F/QPERrVHFWoE.sqnfe0kNHk82eua.LTIdkrYYk9/byfa8ALA.",
+    "role": "Employee",
+    "emailVerificationToken": "85589c0bf65c4b8e4a2116eec729c40c19c92620c3bda427eab81706e3576b8d",
+    "emailVerified": true,
+    "createdAt": "2026-01-03T10:21:57.660Z"
+  },
+  {
+    "_id": "mjy6t76axdalwnppu",
+    "employeeId": "em4",
+    "name": "Gita",
+    "email": "em4@gmail.com",
+    "password": "$2a$10$MgGEY57pj0MmFvIA/fwd1u/51AbGUrh1U.yzPwOijn0walqMwf9rC",
+    "role": "Employee",
+    "emailVerificationToken": "2960492215de3ba3c944c60e96c69b3629b2b6b3712257ab3e3565c3a4a74ca6",
+    "emailVerified": true,
+    "createdAt": "2026-01-03T10:56:04.499Z"
+  },
+  {
+    "_id": "mjy6vu78rw7lwwx1w2i",
+    "employeeId": "hr2",
+    "name": "neha",
+    "email": "hr2@gmail.com",
+    "password": "$2a$10$bUIdgI6Iy0hO0mmx7o6Q1OMoimy71zPbN6uK.h.LdesRI0Eay7qL.",
+    "role": "HR",
+    "emailVerificationToken": "4422a90892c692ee9ddde207d3a9d2210a1d35e03de2b4bc22fc7d4c05dbec4c",
+    "emailVerified": true,
+    "createdAt": "2026-01-03T10:58:07.652Z"
+  }
+]
