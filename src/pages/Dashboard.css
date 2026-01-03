@@ -1,0 +1,121 @@
+.dashboard {
+  padding: 20px 0;
+  background-color: #cdf9eb; /* light blue background instead of brown */
+}
+
+.dashboard-title {
+  color: #f5a267; /* dark blue-gray */
+  margin-bottom: 32px;
+  font-size: 32px;
+}
+
+/* ================= CARDS ================= */
+.dashboard-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.dashboard-card {
+  background: #faabab; /* pure white */
+  border-radius: 12px;
+  padding: 32px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1); /* blue shadow */
+}
+
+.dashboard-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(37, 99, 235, 0.25); /* stronger blue */
+}
+
+.card-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+  color: #8825eb; /* primary blue */
+}
+
+.dashboard-card h3 {
+  color: #1e3a8a; /* dark blue */
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.dashboard-card p {
+  color: #475569; /* blue-gray */
+  font-size: 14px;
+}
+
+/* ================= STATS ================= */
+.dashboard-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 32px;
+}
+
+.stat-card {
+  background: #dcdfe0; /* pure white */
+  border-radius: 12px;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(247, 215, 157, 0.1);
+}
+
+.stat-card h4 {
+  color: #64748b; /* blue-gray */
+  font-size: 14px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stat-number {
+  color: #9feb25; /* strong blue */
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* ================= RECENT ACTIVITY ================= */
+.recent-activity {
+  background: #ffffff; /* pure white */
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1);
+}
+
+.recent-activity h2 {
+  color: #1f2937;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.activity-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  background: #eef2ff; /* light blue instead of green/brown */
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.activity-item:hover {
+  background: #e0e7ff; /* darker blue hover */
+}
+
+.activity-type {
+  font-weight: 600;
+  color: #f1eb48; /* blue */
+  min-width: 80px;
+}
